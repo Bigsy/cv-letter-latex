@@ -7,92 +7,103 @@
   {OVO Energy} % Organization
   {Bristol} % Location
   {2016  - Present} % Date(s)
-  {I currently work on OVO groups Kaluza platform which is a new realtime intelligent energy platform built for utilities to
-  manage a modern energy grid. I've worked on it since its inception and have been central in designing and implementing
-  some of its core event stremaing microservices on top of apache Kafka }
+  {I currently work on OVO groups Kaluza platform which is a new real-time intelligent energy platform built for
+  utilities to manage a modern energy grid. I've worked on it since its inception and have been central in designing
+  and implementing some of its core event streaming microservices on top of Apache Kafka.}
   {
     \begin{cvitems} % Description(s) of tasks/responsibilities
-      \item {charging pipline, set of clojure services}
-      \item {flows, bridge for translating energy industry transactions files on and off of Kafka }
-      \item {payments, 3rd party payment provider worldpay integration}
-      \item {probably something else}
+      \item {Most recently I've been working on parsing industry data (flows) building software to act as a bridge for
+      translating millions of energy industry transactions files onto Kafka and vice-versa back to the industry.
+      Clojure despite the lack of a type system has been a great tool for this.}
+      \item {Core developer on Kaluza's real-time charging pipeline, a collection of Clojure microservices backed by
+      kafka that spans taking customer meter readings through to charging customers based on contract length and tariff.}
+      \item {Implemented a 3rd party payment integration for an online credit card payment system, written in Scala using
+      ScalaZ and http4s}
     \end{cvitems}
   }
 
   \cventrypara
-    {Senior Software Engineer} % Job title
-    {LINE Corporation - MixRadio} % Organization
-    {Bristol} % Location
-    {2014  - 2016} % Date(s)
-    {With MixRadio being sold to LINE corporation by Microsoft my role was a continuation from that at Microsoft.}
-    {
-      \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {I recently developed a full stack Clojure and ClojureScript service which enabled in house mixmasters to manually tweak MixRadio's recommendations engine.}
-        \item {I Integrated SalesForce with MixRadio’s internal CRM system. A Clojure service which extracted all relevant data from Salesforce and parsed it to AWS SQS and persisted it to Redshift.}
-        \item {I produced an EMR processing pipeline to transform our massive user taste profiles into a suitable format and export it to SalesForce for recommendation emails.}
-        \item {I’ve written various Cascalog and Pigpen Big data flows over millions of user events to support and improve music recommendations eg find and boost emerging “hot” tracks.}
-      \end{cvitems}
-    }
+  {Senior Software Engineer} % Job title
+  {LINE Corporation - MixRadio} % Organization
+  {Bristol} % Location
+  {2014  - 2016} % Date(s)
+  {With MixRadio being sold to LINE corporation by Microsoft my role was a continuation from that at Microsoft.}
+  {
+    \begin{cvitems} % Description(s) of tasks/responsibilities
+      \item {I developed a full stack Clojure and ClojureScript service which enabled in house mixmasters to manually
+      tweak MixRadio's recommendations engine.}
+      \item {I Integrated SalesForce with MixRadio’s internal CRM system. A Clojure service which extracted all
+      relevant data from Salesforce and parsed it to AWS SQS and persisted it to Redshift.}
+      \item {I produced an EMR processing pipeline to transform our massive user taste profiles into a suitable
+      format and export it to SalesForce for recommendation emails.}
+      \item {I wrote various Cascalog and Pigpen Big data flows over millions of user events to support and improve
+      music recommendations eg find and boost emerging “hot” tracks.}
+    \end{cvitems}
+  }
 
   \cventrypara
-    {Senior Software Engineer} % Job title
-    {Microsoft} % Organization
-    {Bristol} % Location
-    {2013  - 2014} % Date(s)
-    {Microsoft purchased Nokia's mobile business. My work was focused even more on the core music recommendations of
-    the business building fault-tolerant, performant Clojure services and data processing at scale.}
-    {
-      \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {Played a key role in creating a complex music recommendation service for similarly liked tracks and artists. This replaced the 3rd party reliance on The EchoNest. Built with Clojure on DynamoDB.}
-        \item {I built a highly performant microservice to match track and artist metadata to MixRadios internal representation.}
-        \item {I created a service to warehouse client user events from Kafka to S3, encrypting any sensitive user data.}
-        \item {I designed and produced a service to produce new album release events no notify intrested users, in Clojure on MongoDB.}
-        \item {I built up the majority of MixRadios client ’views’ API, it produced customised views of JSON data allowing clients to build their pages, coded in Java and Spring.}
-        \item {A key contributor to MixRadios core services:
-            \begin{itemize}
-                \item Users music taste profile service, based on MongoDB in Clojure.
-                \item An API to serve session based curated mixes, in Clojure and Redis.
-                \item The music catalogue and search engine, based on Java, MySQL and Apache Solr.
-            \end{itemize}}
-      \end{cvitems}
-    }
+  {Senior Software Engineer} % Job title
+  {Microsoft - MixRadio} % Organization
+  {Bristol} % Location
+  {2013  - 2014} % Date(s)
+  {Microsoft purchased Nokia's mobile business. My work was focused even more on the core music recommendations of
+  the business building fault-tolerant, performant Clojure services and data processing at scale.}
+  {
+    \begin{cvitems} % Description(s) of tasks/responsibilities
+      \item {Played a key role in creating a complex music recommendation service for similarly liked tracks and artists.
+      This replaced the 3rd party reliance on The EchoNest. Built with Clojure on DynamoDB.}
+      \item {I built a highly performant microservice to match track and artist metadata to MixRadios internal representation.}
+      \item {I created a service to warehouse client user events from Kafka to S3, encrypting any sensitive user data.}
+      \item {I designed and produced a service to produce new album release events no notify interested users,
+        in Clojure on MongoDB.}
+      \item {I built up the majority of MixRadios client ’views’ API, it produced customised views of JSON data
+      allowing clients to build their pages, coded in Java and Spring.}
+      \item {A key contributor to MixRadios core services:
+        \begin{itemize}
+          \item Users music taste profile service, based on MongoDB in Clojure.
+          \item An API to serve session based curated mixes, in Clojure and Redis.
+          \item The music catalogue and search engine, based on Java, MySQL and Apache Solr.
+        \end{itemize}}
+    \end{cvitems}
+  }
 
   \cventrypara
-    {Senior Software Engineer} % Job title
-    {Nokia } % Organization
-    {Bristol} % Location
-    {2009  - 2013} % Date(s)
-    {During my time at Nokia I transitioned from automated tester, to a full time Java and then Clojure developer. My role from newest to oldest:}
-    {
-      \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {\emph{Developer:} Designed and built key services to provide mobile phone notifications to millions of users.}
-        \item {\emph{Developer:} In 2012, I joined a small team working on Nokia's first production Clojure services with the ultimate aim to replace our 3rd party integration with The EchoNest.}
-        \item {\emph{Developer:} Nokia ceased to support Meego and I moved into full-time Java development. I was one-half of a pair that integrated with a 3rd party company, The EchoNest. Integrating their music recommendations produced Nokia music’s first iteration of its internet radio (later to be called MixRadio). This was a Java and Spring based service.}
-        \item {\emph{Build Manager:} I became the Bristol office's package manager for the Meego (Linux-based) operating system. I was responsible for integrating Bristol's music software into the Debian based operating system via apt package management.}
-        \item {\emph{Testing:} Developed both a front end web test frameworks around JBehave and Selenium2. An also a  FitNesse suite to test a large scale music search engine. This mainly involved writing fixtures in Java to enable less technical testers to write wiki based tests.}
-      \end{cvitems}
-    }
+  {Senior Software Engineer} % Job title
+  {Nokia} % Organization
+  {Bristol} % Location
+  {2009  - 2013} % Date(s)
+  {During my time at Nokia I transitioned from a Java and linux build engineer, to a Clojure engineer. My role from newest to oldest:}
+  {
+    \begin{cvitems} % Description(s) of tasks/responsibilities
+      \item {\emph{Developer:} Designed and built key services to provide mobile phone notifications to millions of users.}
+      \item {\emph{Developer:} In 2011, I joined a small team working on Nokia's first production Clojure services with the ultimate aim to replace our 3rd party integration with The EchoNest.}
+      \item {\emph{Developer:} Nokia ceased to support Meego and I moved into full-time Java development. I was one-half of a pair that integrated with a 3rd party company, The EchoNest.
+      Integrating their music recommendations produced Nokia music’s first iteration of its internet radio (later to be called MixRadio). This was a Java and Spring based service.}
+      \item {\emph{Build Manager:} I became the Bristol office's package manager for Nokia's Meego (Linux-based) operating system.
+      I was responsible for automating the build process and integrating Bristol's music software into the wider companies operating system via apt package management.}
+    \end{cvitems}
+  }
 
   \cventry
-    {Senior Automated Test Engineer} % Job title
-    {Alterian} % Organization
-    {Bristol} % Location
-    {2008  - 2009} % Date(s)
-    {A UK-based supplier of marketing automation software and services. I was their sole automated tester and worked on
-    their “Next Generation” web-based platform.}
+  {Senior Automation Engineer} % Job title
+  {Alterian} % Organization
+  {Bristol} % Location
+  {2008  - 2009} % Date(s)
+  {A UK-based supplier of marketing automation software and services. I was their sole automated tester and worked on
+  their “Next Generation” web-based platform.}
 
   \cventry
-    {Senior Automated Test Engineer} % Job title
-    {Experian (Decision Analytics EMEAI)} % Organization
-    {Bristol} % Location
-    {2006  - 2008} % Date(s)
-    {Talgentra was acquired by Experian, I progressed into a more senior automated testing role.}
+  {Senior Automation Engineer} % Job title
+  {Experian (Decision Analytics EMEAI)} % Organization
+  {Bristol} % Location
+  {2006  - 2008} % Date(s)
+  {Talgentra was acquired by Experian, I progressed into a more senior automated testing role.}
 
   \cventry
-    {Junior Software Engineer } % Job title
-    {Talgentra} % Organization
-    {Bristol} % Location
-    {2004 - 2006} % Date(s)
-    {Talgentra produced utility billing software for electricity, water, gas and telecommunications. This was my initial introduction to Java, writing some Junit and automated acceptance tests.
-    }
+  {Junior Software Engineer} % Job title
+  {Talgentra} % Organization
+  {Bristol} % Location
+  {2004 - 2006} % Date(s)
+  {Talgentra produced utility billing software for electricity, water, gas and telecommunications. This was my initial introduction to Java, writing some Junit and automated acceptance tests.
+  }
 \end{cventries}
